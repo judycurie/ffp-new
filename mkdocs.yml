@@ -1,6 +1,6 @@
 # Replace the text below to customize your site
-site_name: OPTIshell
-site_description: Fab Academy documentation site for Judy Curie
+site_name: Fab Foundation Poland
+site_description: Fab Foundation Poland
 site_author: Judy Curie
 copyright: Copyright 2023 Judy Curie - Creative Commons Attribution Non Commercial
 
@@ -18,21 +18,30 @@ extra:
       link: https://twitter.com/judycurie
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/judyta-cichocka-6992a854/
-
 theme:
   name: material
-  palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: white
-    accent: cyan
+  
+
+
   font:
     # See available fonts at https://fonts.google.com/
     # My favourites: Inconsolata,  IBM Plex Mono, Chakra Petch, Exo, Didact Gothic, Exo
-    text: Exo
+    text: Roboto Mono
     code: Ubuntu Mono
 
   logo: images/icon.jpg
   favicon: images/icon.jpg
+  features:
+    - navigation.tabs
+    - navigation.instant
+  font:
+    # See available fonts at https://fonts.google.com/
+    # My favourites: Inconsolata,  IBM Plex Mono, Chakra Petch, Exo, Didact Gothic, Exo
+    text: Roboto Mono
+    code: Ubuntu Mono
+
+  logo: assets/ffp-icon.jpg
+  favicon: assets/ffp-icon.jpg
   features:
     - navigation.tabs
     - navigation.instant
@@ -58,3 +67,5 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+extra_css:
+  - stylesheets/extra.css
